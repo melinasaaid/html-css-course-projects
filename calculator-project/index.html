@@ -74,8 +74,9 @@
       
       <button onclick="
         calculation = eval(calculation);
+        isResetMode = true;
         displayResult();
-        localStorage.setItem('calculation',   calculation);
+        localStorage.setItem('calculation', calculation);
       " class="number-buttons calculator-button">=</button>
 
       <button onclick="
